@@ -1,0 +1,25 @@
+/* service */
+.service-section {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  bottom: 0;
+}
+
+
+/* carousel */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+.overlay-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
