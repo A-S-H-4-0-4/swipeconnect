@@ -155,7 +155,7 @@ function page() {
 
           If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal information, please contact us at:
           <br />
-          info@swipeconnecttechnology.com
+          info@technology.com
           <br />
           Thank you for trusting Swipe Connect Technology with your cybersecurity needs.
 

@@ -22,32 +22,37 @@ function page() {
                     Swipe Connect
                 </h1>
             </div>
+           
 
-
-            <div className="p-3 text-center">
+            <div className="p-3 mt-10  text-center ">
                 <h1 className="text-3xl font-bold pb-7 text-cyan-400 ">
-                    Asterics
+                Asterics
                 </h1>
             </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-                <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
+            <div className="lg:max-w-screen-lg mx-auto grid my-12 lg:grid-cols-2 gap-10 p-6 lg:px-8 overflow-hidden">
+                <div
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className="flex justify-center"
+                >
+                    <img src="/customer.jpeg" alt="image" />
+                </div>
 
-
-
-
-
+                <div
+                    className="align-middle"
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >
+                    <h3 className="text-3xl  font-extrabold pb-7 text-cyan-400 ">
                     Unlock the Potential of Asterics with Our Exceptional Services
-                </h1>
-                <p className="text-lg text-justify  p-5 font-semibold">
-
+                    </h3>
+                    <p className="text-lg text-justify  p-5 font-semibold">
                     Welcome to our Asterics Services page, where we are dedicated to providing outstanding solutions to help businesses harness the power of Asterics. As a trusted service provider, we offer comprehensive services that enable organizations to optimize their processes, drive efficiency, and achieve success.
-                </p>
-            </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-
-                <p className="text-lg text-justify  p-5 ">
-
-                    <b className="font-black">Read on to discover why businesses choose us as their preferred partner for Asterics services.</b>
+                    </p>
+                </div>
+                <b className="font-black">Read on to discover why businesses choose us as their preferred partner for Asterics services.</b>
                     <br />
                     <br />
                     <b className="font-black">
@@ -80,11 +85,7 @@ function page() {
                     <br />
 
                     When it comes to Asterics services, partnering with the right service provider is crucial for unlocking its full potential. At Swipe Connect, we offer extensive expertise, comprehensive service offerings, customized solutions, a proven track record of success, seamless integration, continuous support, and cost-effective solutions. Experience the transformative power of Asterics by choosing us as your trusted partner.
-
-                </p>
-
             </div>
-
 
             <Footer />
         </>

@@ -24,31 +24,44 @@ function page() {
             </div>
 
 
-            <div className="p-3 text-center">
-                <h1 className="text-3xl font-bold mt-4 pb-7 text-cyan-400 ">
+            <div className="p-3 mt-10  text-center ">
+                <h1 className="text-3xl font-bold pb-7 text-cyan-400 ">
                     Cloud Migration
+
                 </h1>
             </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-                <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
+            <div className="lg:max-w-screen-lg mx-auto grid my-12 lg:grid-cols-2 gap-10 p-6 lg:px-8 overflow-hidden">
+                <div
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className="flex justify-center items-center h-[50%] "
+                >
+                    <img  className="h-full" src="/computer.png" alt="image" />
+                </div>
 
+                <div
+                    className="align-middle"
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >
+                    <h3 className="text-3xl  font-extrabold pb-7 text-cyan-400 ">
+                        Cloud Migration Service
 
+                    </h3>
+                    <p className="text-lg text-justify  p-5 font-semibold">
 
-                    Cloud Migration Service
-                </h1>
-                <p className="text-lg text-justify  p-5 font-semibold">
+                        At Swipe connect, we specialize in providing top-notch Cloud Migration services to help businesses unlock the full potential of the cloud. With our expertise and comprehensive approach, we ensure a seamless transition from on-premises infrastructure to the cloud, enabling enhanced business agility and scalability.
+                        <br />
+                        Our team of experienced professionals understands the complexities involved in migrating your applications, data, and infrastructure to the cloud. We follow industry best practices and proven methodologies to carefully assess your unique requirements and design a tailored migration strategy that aligns with your business goals.
+                        <br />
+                        We offer end-to-end cloud migration solutions, encompassing assessment, planning, implementation, and post-migration support. Leveraging leading cloud platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform, we ensure a secure, reliable, and optimized migration that minimizes disruption and maximizes performance.
 
+                    </p>
+                </div>
 
-                    At Swipe connect, we specialize in providing top-notch Cloud Migration services to help businesses unlock the full potential of the cloud. With our expertise and comprehensive approach, we ensure a seamless transition from on-premises infrastructure to the cloud, enabling enhanced business agility and scalability.
-                    <br />
-                    Our team of experienced professionals understands the complexities involved in migrating your applications, data, and infrastructure to the cloud. We follow industry best practices and proven methodologies to carefully assess your unique requirements and design a tailored migration strategy that aligns with your business goals.
-                    <br />
-                    We offer end-to-end cloud migration solutions, encompassing assessment, planning, implementation, and post-migration support. Leveraging leading cloud platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform, we ensure a secure, reliable, and optimized migration that minimizes disruption and maximizes performance.
-
-                </p>
-            </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-                <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
+                <h1 className="text-3xl  font-extrabold pb-7 text-cyan-400 ">
 
                     Benefits of choosing Swipe connect for your Cloud Migration needs:
                 </h1>
@@ -81,10 +94,10 @@ function page() {
                     <br />
                     <br />
 
-                                      <b className="font-black">
+                    <b className="font-black">
 
 
-                                      Ongoing Support: </b> We provide post-migration support and monitoring to ensure your cloud environment remains secure, optimized, and aligned with your evolving business requirements.
+                        Ongoing Support: </b> We provide post-migration support and monitoring to ensure your cloud environment remains secure, optimized, and aligned with your evolving business requirements.
 
 
                     <br />
@@ -95,6 +108,16 @@ function page() {
                 </p>
 
             </div>
+
+
+
+
+
+
+
+
+
+
 
 
             <Footer />

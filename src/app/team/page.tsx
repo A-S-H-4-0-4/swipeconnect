@@ -6,6 +6,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Footer from "../layout/Footer";
+import Header from "../layout/Header";
 
 function page() {
 
@@ -17,6 +19,7 @@ function page() {
 
     return (
         <>
+        <Header/>
             <div className="text-center text-cyan-500  py-36" style={aboutStyle}>
                 <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
                     Swipe Connect
@@ -97,7 +100,7 @@ MARKETING DIRECTOR
                 <p>&copy; 2023 Our Team</p>
             </div>
 
-
+<Footer/>
 
         </>
     );

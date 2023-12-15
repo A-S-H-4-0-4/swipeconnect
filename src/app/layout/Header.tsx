@@ -80,7 +80,7 @@ export default function Header() {
                 <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
                   <div className="grid grid-cols">
                     <a className=" m-2 " href="/itsm">ITSM (Request Management)</a>
-                    <a className=" m-2 " href="/nerworkMonitoring">Network Monitoring</a>
+                    <a className=" m-2 " href="/networkMonitoring">Network Monitoring</a>
                     <a className=" m-2 " href="/vulnerability">Vulnerability Analysis</a>
                     <a className=" m-2" href="/penetrationTesting">Penetration Testing</a>
                     <a className=" m-2" href="/itSecurityAudit">IT Security Audit</a>
@@ -98,7 +98,7 @@ export default function Header() {
 
                 <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
                   <div className="grid grid-cols">
-                    <a className=" m-2 " href="/graphicDesignind">Graphics Designing</a>
+                    <a className=" m-2 " href="/graphicDesigning">Graphics Designing</a>
                     <a className=" m-2 " href="/secureWebDevelopment">Secure Web Development</a>
                     <a className=" m-2 " href="/secureAppDevelopment">Secure App Development</a>
                     <a className=" m-2" href="/secureDesktopDevelopment">Secure Desktop Application</a>
@@ -187,8 +187,7 @@ export default function Header() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <Link href="/home" className="-m-1.5 p-1.5">
-                <span className="sr-only text-black">Cyberroot</span>
-                <img className="h-16 w-auto" src="logo.png" alt="" />
+                <span className="sr-only text-black">Swipe Connect</span>
               </Link>
               <button
                 type="button"
@@ -235,7 +234,7 @@ export default function Header() {
                       <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
                         <div className="grid grid-cols">
                           <a className=" m-2 " href="/itsm">ITSM (Request Management)</a>
-                          <a className=" m-2 " href="/nerworkMonitoring">Network Monitoring</a>
+                          <a className=" m-2 " href="/networkMonitoring">Network Monitoring</a>
                           <a className=" m-2 " href="/vulnerability">Vulnerability Analysis</a>
                           <a className=" m-2" href="/penetrationTesting">Penetration Testing</a>
                           <a className=" m-2" href="/itSecurityAudit">IT Security Audit</a>
@@ -254,7 +253,7 @@ export default function Header() {
 
                       <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
                         <div className="grid grid-cols">
-                          <a className=" m-2 " href="/graphicDesignind">Graphics Designing</a>
+                          <a className=" m-2 " href="/graphicDesignin">Graphics Designing</a>
                           <a className=" m-2 " href="/secureWebDevelopment">Secure Web Development</a>
                           <a className=" m-2 " href="/secureAppDevelopment">Secure App Development</a>
                           <a className=" m-2" href="/secureDesktopDevelopment">Secure Desktop Application</a>

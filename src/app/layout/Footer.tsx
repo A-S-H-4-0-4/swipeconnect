@@ -25,7 +25,7 @@ const Footer = () => {
 
           <ul>
             <li className="mb-2">
-              <Link href="/networkMonitoring">          Network Monitoring
+              <Link href="/networkMonitoring">Network Monitoring
               </Link>
             </li>
 
@@ -87,21 +87,21 @@ const Footer = () => {
 
           <p className="flex items-center mb-4">
             <FaLocationDot className="me-2" />
-            Office No. 135, Dhanshree Tower,
-            <br /> Vidhyadhar Nagar, Jaipur (Raj.) - 302039
+            Office No. 5, Tower,
+            <br /> Vidhyadhar Nagar, Jaipur (Raj.) - 304239
           </p>
 
           <div className="flex mb-4 items-center">
             <FaPhoneAlt className="me-2" />
             <p className="flex w-max ">
-              <a href="tel:+919785730238">+91 80944 96471</a>
+              <a href="tel:+919785730238">+91 82324 96471</a>
             </p>
           </div>
 
           <p className="flex mb-4 items-center">
             <TbMailFilled className="me-2" />
             <a href="mailto:cyberrootsoftware@gmail.com">
-              info@swipeconnecttechnology.com
+              info@technology.com
             </a>
           </p>
 

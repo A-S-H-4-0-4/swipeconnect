@@ -24,26 +24,39 @@ function page() {
             </div>
 
 
-            <div className="p-3 text-center">
+
+
+
+            <div className="p-3 mt-10  text-center ">
                 <h1 className="text-3xl font-bold pb-7 text-cyan-400 ">
                     Secure App Development
                 </h1>
             </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-                <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
-                    Secure App Development Service
-                </h1>
-                <p className="text-lg text-justify  p-5 font-semibold">
+            <div className="lg:max-w-screen-lg mx-auto grid my-12 lg:grid-cols-2 gap-10 p-6 lg:px-8 overflow-hidden">
+                <div
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className="flex justify-center items-center  "
+                >
+                    <img src="/digital.jpeg" alt="image" />
+                </div>
+
+                <div
+                    className="align-middle"
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >
+                    <h3 className="text-3xl  font-extrabold pb-7 text-cyan-400 ">
+                        Secure App Development: Building Websites with Ironclad Protection
+                    </h3>
+                    <p className="text-lg text-justify  p-5 font-semibold">
 
                     With our Secure App Development service, we prioritize the protection of your sensitive data and the integrity of your applications. Our experienced team of developers follows industry best practices to ensure that your apps are robust, reliable, and resilient to potential security threats.
-                </p>
-            </div>
-            <div className="p-6 py-10   md:px-5 md:py-10 ">
-                <h1 className="text-3xl text-center font-extrabold pb-7 text-cyan-400 ">
-                    Key Features  of our Secure App Development service:
-                </h1>
-                <p className="text-lg text-justify  p-5 ">
-                    <b className="font-black">
+                    </p>
+                </div>
+                <b className="font-black">
                         Stringent Security Measures: </b>  We implement advanced security protocols and coding practices to fortify your applications against common vulnerabilities. From secure data storage to encryption, we take every step to safeguard your app and the data it handles. Thorough Testing and Auditing: Our rigorous testing and auditing processes identify any potential vulnerabilities or weaknesses in your app&apos;s security. We conduct comprehensive penetration testing, code reviews, and security assessments to ensure that your app meets the highest security standards.
                     <br />
                     <br />
@@ -65,7 +78,6 @@ function page() {
                         Ongoing Support and Maintenance:</b> OWe provide continuous support and maintenance for your app&apos;s security needs. Our team monitors your app for potential threats, performs regular security audits, and offers prompt assistance to address any security concerns.
                     <br />
                     Partner with us for Secure App Development and gain peace of mind knowing that your applications are built with a strong focus on security. Protect your app, users, and reputation from security breaches and data compromises. Contact us today to discuss how our Secure App Development service can meet your specific needs.
-                </p>
 
             </div>
 
