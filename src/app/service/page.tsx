@@ -50,19 +50,7 @@ function page() {
           </div>
 
           <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-10">
-            <div className="bg-slate-700 border-2 border-[#000] p-3 cursor-pointer">
-              <Image
-                src="/coding2.png"
-                height={40}
-                width={40}
-                alt="coding"
-                className="block mx-auto"
-              />
-
-              <h1 className="my-3">Lorem, ipsum.</h1>
-
            
-            </div>
 
             <div className="bg-slate-700 border-2 border-[#000] p-3 cursor-pointer">
               <Image
@@ -73,7 +61,7 @@ function page() {
                 className="block mx-auto"
               />
 
-              <h1 className="my-3">Lorem, ipsum.</h1>
+              <h1 className="my-3">Graphic Designing</h1>
 
     
             </div>
@@ -87,7 +75,7 @@ function page() {
                 className="block mx-auto"
               />
 
-              <h1 className="my-3">Lorem, ipsum.</h1>
+              <h1 className="my-3">Web Development</h1>
 
       
             </div>
@@ -101,7 +89,7 @@ function page() {
                 className="block mx-auto"
               />
 
-              <h1 className="my-3">Lorem, ipsum.</h1>
+              <h1 className="my-3">Mobile Development</h1>
 
           
             </div>
@@ -115,11 +103,10 @@ function page() {
                 className="block mx-auto"
               />
 
-              <h1 className="my-3">Lorem, ipsum.</h1>
+              <h1 className="my-3">Desktop Development</h1>
 
          
             </div>
-
             <div className="bg-slate-700 border-2 border-[#000] p-3 cursor-pointer">
               <Image
                 src="/coding2.png"
@@ -129,7 +116,20 @@ function page() {
                 className="block mx-auto"
               />
 
-              <h1 className="my-3">Lorem, ipsum.</h1>
+              <h1 className="my-3">Penetration Testing</h1>
+
+           
+            </div>
+            <div className="bg-slate-700 border-2 border-[#000] p-3 cursor-pointer">
+              <Image
+                src="/coding2.png"
+                height={40}
+                width={40}
+                alt="coding"
+                className="block mx-auto"
+              />
+
+              <h1 className="my-3">Network Monitoring</h1>
 
        
             </div>
