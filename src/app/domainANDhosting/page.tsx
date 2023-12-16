@@ -77,11 +77,8 @@ function page() {
                 <b className="font-black">
                     Domain Privacy and Protection:</b> Protect your personal information and enhance security with our domain privacy services. We shield your contact details from public WHOIS databases, reducing the risk of identity theft and spam.
                 <br />
-                <h1 className="text-3xl  font-extrabold pb-7 text-cyan-400 ">
-
-                    Hosting Solutions:
-                </h1>
-
+     
+<br/>
                 <b className="font-black">
                     Shared Hosting: </b>Our shared hosting plans provide a cost-effective solution for individuals and small businesses. Benefit from reliable server resources, a user-friendly control panel, and 24/7 technical support.
                 <br />

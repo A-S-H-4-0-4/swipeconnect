@@ -92,9 +92,9 @@ function page() {
 
 
 
-                <h1 className="text-3xl font-bold pb-7 text-cyan-400 ">
+                <b className="font-black">
                     Conclusion:
-                </h1>
+                </b>
                 <br />
                     Embrace the power of Free Switch and revolutionize your network connectivity. Our solution offers enhanced network performance, cost savings, flexibility, advanced features, simplified management, and reliable security. Let our expert team assess your network requirements and tailor a Free Switch solution that meets your specific business needs. Experience seamless connectivity, optimal performance, and enhanced productivity with Free Switch.
 

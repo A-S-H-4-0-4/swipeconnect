@@ -94,9 +94,8 @@ function page() {
 
 
 
-            <h1 className="text-3xl font-bold pb-7 text-cyan-400 ">
-                Conclusion:
-            </h1>
+                <b className="font-black">
+                    Conclusion: </b>
             <br />
                 Embrace the power of VoIP Services to revolutionize your business communication infrastructure. Our customizable solutions provide cost savings, flexibility, advanced features, mobility support, integration capabilities, and reliable call quality. Let our expert team assess your unique requirements and tailor a VoIP solution that aligns with your business goals. Experience seamless connectivity, enhanced productivity, and improved customer interactions with our VoIP Services.
 
