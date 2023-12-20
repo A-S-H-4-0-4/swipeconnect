@@ -12,6 +12,7 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import "../globals.css";
 import Tooltip from '@mui/material/Tooltip';
 import CallIcon from '@mui/icons-material/Call';
+import LoginIcon from '@mui/icons-material/Login';
 
 
 
@@ -131,14 +132,14 @@ export default function Header() {
               <Popover className="relative">
                 <Popover.Button>Customer</Popover.Button>
                 <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
-                <div className="grid grid-cols">
-                          <a className=" m-2 " href="/crm">CRM Solutions</a>
-                          <a className=" m-2 " href="/voip">VOIP Services</a>
-                          <a className=" m-2 " href="/freeSwitch">Free Switch</a>
-                          <a className=" m-2" href="/asterics">Asterics</a>
-                          <a className=" m-2" href="/sbc">SBC Integrations</a>
-                          <a className=" m-2" href="/Kamailio">Kamailio Integration</a>
-                        </div>
+                  <div className="grid grid-cols">
+                    <a className=" m-2 " href="/crm">CRM Solutions</a>
+                    <a className=" m-2 " href="/voip">VOIP Services</a>
+                    <a className=" m-2 " href="/freeSwitch">Free Switch</a>
+                    <a className=" m-2" href="/asterics">Asterics</a>
+                    <a className=" m-2" href="/sbc">SBC Integrations</a>
+                    <a className=" m-2" href="/Kamailio">Kamailio Integration</a>
+                  </div>
 
                   <img src="/solutions.jpg" alt="" />
                 </Popover.Panel>
@@ -150,13 +151,13 @@ export default function Header() {
               <Popover className="relative">
                 <Popover.Button>Corporate</Popover.Button>
                 <Popover.Panel className="absolute z-10 w-max p-4 bg-white flex-col ">
-                <div className="grid grid-cols">
-                          <a className=" m-2 " href="/cybersecurity">CyberSecurity</a>
-                          <a className=" m-2 " href="/devops">DEVOPS</a>
-                          <a className=" m-2 " href="/freeSwitch">Free Switch</a>
-                          <a className=" m-2" href="/aiANDml">AI And ML</a>
-                          <a className=" m-2" href="/Blockchain">Blockchain Technologies</a>
-                        </div>
+                  <div className="grid grid-cols">
+                    <a className=" m-2 " href="/cybersecurity">CyberSecurity</a>
+                    <a className=" m-2 " href="/devops">DEVOPS</a>
+                    <a className=" m-2 " href="/freeSwitch">Free Switch</a>
+                    <a className=" m-2" href="/aiANDml">AI And ML</a>
+                    <a className=" m-2" href="/Blockchain">Blockchain Technologies</a>
+                  </div>
 
                   <img src="/solutions.jpg" alt="" />
                 </Popover.Panel>
@@ -165,16 +166,30 @@ export default function Header() {
 
           </Popover.Group>
 
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Tooltip title="Conatct Us">
-              <Link
-                href="/contactUs"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                <CallIcon />
-              </Link>
-            </Tooltip>
-          </div>
+          <div className="hidden  lg:flex lg:flex-1 justify-end ">
+
+         
+              <Tooltip title="Log In">
+                <Link
+                  href="/"
+                  className="text-sm  font-semibold leading-6 text-gray-900"
+                >
+                  <span className="mr-8" ><LoginIcon /></span>
+                </Link>
+              </Tooltip>
+
+
+              <Tooltip title="Conatct Us">
+                <Link
+                  href="/contactUs"
+                  className="text-sm  font-semibold leading-6 text-gray-900"
+                >
+                  <CallIcon />
+                </Link>
+              </Tooltip>
+            </div>
+
+
         </nav>
 
         <Dialog
@@ -327,6 +342,17 @@ export default function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Contact Us
+                  </Link>
+                  {/* </Tooltip> */}
+                </div>
+                <div className="py-6">
+                  {/* <Tooltip title="Conatct Us"> */}
+                  <Link
+                    href="/"
+                    className="text-sm font-semibold leading-6 text-gray-900"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Log In
                   </Link>
                   {/* </Tooltip> */}
                 </div>

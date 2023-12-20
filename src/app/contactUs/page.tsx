@@ -11,6 +11,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { TextareaAutosize as BaseTextareaAutosize } from "@mui/base/TextareaAutosize";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
+// react notification
+import { toast, Toaster } from "react-hot-toast";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
@@ -23,12 +25,14 @@ const ContactUs = () => {
       email: data.get("email"),
       password: data.get("password"),
     });
+    toast.success("Submited Successfully")
   };
 
   return (
     <>
     <Header/>
       <div className="bg-white text-black flex-col justify-between pb-28">
+      <Toaster toastOptions={{ duration: 3000 }} />
         <div className="bg-white mx-0 ">
           {/* <h1>Contact Us: -</h1> */}
           <ThemeProvider theme={defaultTheme}>

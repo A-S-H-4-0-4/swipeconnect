@@ -88,13 +88,13 @@ const Footer = () => {
           <p className="flex items-center mb-4">
             <FaLocationDot className="me-2" />
             Office No. 5, Tower,
-            <br /> Vidhyadhar Nagar, Jaipur (Raj.) - 304239
+            <br /> Sitapura, Jaipur (Raj.) - 303905
           </p>
 
           <div className="flex mb-4 items-center">
             <FaPhoneAlt className="me-2" />
             <p className="flex w-max ">
-              <a href="tel:+919785730238">+91 82324 96471</a>
+              <a href="tel:+919785730238">+91 99998 88777</a>
             </p>
           </div>
 
